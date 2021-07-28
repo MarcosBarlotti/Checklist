@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "titulo":"Pruductividad en 5 pasos",
+        "imagen": "./images/imagen1.jpeg",
+        "clase" : "card-1",
+        "link"  : "./Pagina no disponible/paginaerror.html"
+    },
+    {
+        "id": 2,
+        "titulo":"La nueva normalidad",
+        "imagen": "./images/imagen2.jpeg",
+        "clase" : "card-2",
+        "link"  : "./Pagina no disponible/paginaerror.html"
+    },
+    {
+        "id": 3,
+        "titulo":"Mundo Checklist",
+        "imagen": "./images/imagen 3.jpeg",
+        "clase" : "card-3",
+        "link"  : "./Pagina no disponible/paginaerror.html"
+    },
+    {
+        "id": 4,
+        "titulo":"Método GTD de David Allen",
+        "imagen": "./images/imagen 4.jpeg",
+        "clase" : "card-4",
+        "link"  : "./Pagina no disponible/paginaerror.html"
+    }
+]
