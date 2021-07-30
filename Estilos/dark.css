@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #12c2e9, #c471ed, #f64f59);
+  background-image: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -38,6 +38,8 @@ form input {
   border-radius: 10px 0px 0px 10px;
   outline: none;
   box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+  width: 35%;
+  transition: all 1s ease;
 }
 
 form input:focus::placeholder {
@@ -52,7 +54,7 @@ form input::placeholder {
 /*Boton de formulario*/
 
 form button {
-  color: #f64f59;
+  color: rgba(9,9,121,1);
   background: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -62,7 +64,7 @@ form button {
 }
 
 form button:hover {
-  background: #f64f59;
+  background: rgba(9,9,121,1);
   color: #ffffff;
 }
 
@@ -74,7 +76,7 @@ select {
   appearance: none;
   outline: none;
   border: none;
-  color: #f64f59;
+  color: rgba(9,9,121,1);
   font-size: 1rem;
   width: 10rem;
   cursor: pointer;
@@ -92,7 +94,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #f64f59;
+  background: rgba(9,9,121,1);
   top: 0;
   right: 0;
   padding: 1rem;
@@ -102,7 +104,7 @@ select {
 
 .select:hover::after {
   background: #ffffff;
-  color: #f64f59;
+  color: rgba(9,9,121,1);
 }
 
 /*Tareas a realizar*/
@@ -140,7 +142,7 @@ select {
 .trash-btn,
 .check-btn,
 .btncontactos {
-  background: #f64f59;
+  background: #b44148;
   color: #ffffff;
   border: none;
   padding: 1rem;
@@ -156,16 +158,16 @@ select {
 
 .trash-btn:hover {
   background: #ffffff;
-  color: #f64f59;
+  color: #b44148;
 }
 
 .check-btn:hover {
   background: #ffffff;
-  color: rgb(73, 204, 73);
+  color: rgb(61, 151, 61);
 }
 
 .check-btn {
-  background: rgb(73, 204, 73);
+  background: rgb(61, 151, 61) ;
 }
 
 .checklist-item {
@@ -187,7 +189,7 @@ select {
   display: inline-block;
   width: 60px;
   height: 34px;
-  margin: 0px 0px 0px 50px;
+  margin: -5px 0px 0px 20px;
 }
 
 .switch input {
@@ -353,7 +355,7 @@ a:hover {
   transition: all 0.5s ease;
   color: #ffffff;
   text-shadow: 1px 1px 0 #000000;
-  background: #f64f59;
+  background: rgba(9,9,121,1);
   text-align: center;
   padding-top: 0.7em;
   text-decoration: none;
@@ -361,25 +363,25 @@ a:hover {
 
 .card-1:hover {
   color: #ffffff;
-  background: linear-gradient(120deg, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   transform: translateY(-15px);
 }
 
 .card-2:hover {
   color: #ffffff;
-  background: linear-gradient(120deg, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   transform: translateY(-15px);
 }
 
 .card-3:hover {
   color: #ffffff;
-  background: linear-gradient(120deg, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   transform: translateY(-15px);
 }
 
 .card-4:hover {
   color: #ffffff;
-  background: linear-gradient(120deg, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   transform: translateY(-15px);
 }
 
@@ -455,6 +457,14 @@ a:hover {
 /*Pantalla minimizada*/
 @media screen and (max-width: 1200px) {
 
+
+  form input {
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+    width: 70%;
+  }
+  
   .card-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -485,6 +495,14 @@ a:hover {
 
 /*Celular*/
 @media screen and (max-width: 600px) {
+
+  form input {
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+    width: 70%;
+  }
+  
 
   .card-container {
      display: grid;

@@ -38,6 +38,8 @@ form input {
   border-radius: 10px 0px 0px 10px;
   outline: none;
   box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+  width: 35%;
+  transition: all 1s ease;
 }
 
 form input:focus::placeholder {
@@ -187,7 +189,7 @@ select {
   display: inline-block;
   width: 60px;
   height: 34px;
-  margin: 0px 0px 0px 50px;
+  margin: -5px 0px 0px 20px;
 }
 
 .switch input {
@@ -455,6 +457,14 @@ a:hover {
 /*Pantalla minimizada*/
 @media screen and (max-width: 1200px) {
 
+
+  form input {
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+    width: 70%;
+  }
+  
   .card-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -485,6 +495,14 @@ a:hover {
 
 /*Celular*/
 @media screen and (max-width: 600px) {
+
+  form input {
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    box-shadow: -2px -5px 5px rgba(94, 94, 94, 0.308);
+    width: 70%;
+  }
+  
 
   .card-container {
      display: grid;

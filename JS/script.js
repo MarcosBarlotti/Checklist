@@ -17,9 +17,9 @@ let date = new Date();
 let currentHour = date.getHours();
 let msg = '';
 if(currentHour >= 6 && currentHour < 12){
-    msg = '¿Qué vamos a hacer hoy?';
+    msg = '¿Qué hacemos hoy?';
 } else if(currentHour >= 12 && currentHour < 22) {
-    msg = '¿Qué nos falta hacer?'
+    msg = '¿Qué falta hacer?'
 } else {
     msg = '¿Qué hacemos mañana?'
 }
